@@ -1,0 +1,37 @@
+/*common shared styles*/
+body{
+    font-family: 'Open Sans', sans-serif;
+     width: 1600px;
+}
+   
+
+    /* margin: 0px 300px 200px 100px; */
+    /* padding-top: 100px; */
+.banner-title{
+    font-size: 60px;
+    font-weight: 700;
+}
+.button{
+    
+background: #E55473;
+padding: 10px 40px;
+border-top: 10px;
+}
+header{
+    background: rgba(229, 84, 115, 0.10);
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 50px;
+    
+}
+
+    
+}
+.profile-pic{
+    width: 400px;
+    
+}
+
