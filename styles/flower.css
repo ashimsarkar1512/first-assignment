@@ -1,37 +1,166 @@
 /*common shared styles*/
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-     width: 1600px;
+    width: 1600px;
 }
-   
 
-    /* margin: 0px 300px 200px 100px; */
-    /* padding-top: 100px; */
-.banner-title{
+
+/* margin: 0px 300px 200px 100px; */
+/* padding-top: 100px; */
+.banner-title {
     font-size: 60px;
     font-weight: 700;
 }
-.button{
-    
-background: #E55473;
-padding: 10px 40px;
-border-top: 10px;
+
+.button {
+
+    background: #E55473;
+    padding: 10px 40px;
+    border-top: 10px;
 }
-header{
+
+header {
     background: rgba(229, 84, 115, 0.10);
-    
+
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 100px;
     padding-top: 50px;
-    
+
 }
 
-    
-}
-.profile-pic{
+
+
+.profile-pic {
     width: 400px;
+    padding-top: 132px;
+
+}
+
+.about {
+    width: 1600px;
+    height: 150px;
+    margin-top: 150px;
+
+
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.images {
+    margin: 20px 200px;
+    display: flex;
+    justify-content: space-around;
+    
     
 }
 
+.image-1 {
+    width: 300px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.image-2 {
+    width: 300px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.image-3 {
+    width: 300px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+  color: #272727;
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 145.833% */
+text-decoration-line: underline;
+margin-bottom: 50px;
+
+
+}
+.emoji-set{
+    margin: 0px 250px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 100px 10px;
+}
+.rose-style{
+    
+    background: rgba(229, 84, 115, 0.10);
+
+    margin-top: 100px;
+    padding: 50px 200px;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 90px;
+   
+}
+.middle-point{
+    font-size: 40px;
+    font-weight: 400;
+}
+.priyo{
+    width: 300px;
+    padding-top: 132px;
+
+}
+.touch{
+    display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+    border-radius: 8px;
+background: #E55473;
+}
+.janu{
+    background: rgba(229, 84, 115, 0.10);
+
+    margin-top: 100px;
+    padding: 50px 100px;
+    
+    
+    align-items: center;
+    
+    
+}
+.akhi{
+    margin-left: 600px;
+}
+
+.mitra{
+margin-left: 450px;
+margin-bottom: 50px;
+ }
